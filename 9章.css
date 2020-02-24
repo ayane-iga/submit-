@@ -59,23 +59,29 @@ main{
 }
 
 @media screen and (max-width:768px){
+	main{
+		width:90%;
+		margin:0 auto;
+	}
 	.box{
 		float:none;
 		width:90%;
 		margin-bottom:20px auto;
+		margin:0 auto;
 	}
 	.box:last-child{
 		margin-bottom:none;
+		margin:0 auto;
 	}
 
 	.box-image1{
-		width:90%;
+		width:100%;
 	}
 	.box-image2{
-		width:90%;
+		width:100%;
 	}
 	.box-image3{
-		width:90%;
+		width:100%;
 	}
 
 }
